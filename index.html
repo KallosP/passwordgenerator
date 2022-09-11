@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head> 
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+
+        <header>Password Generator</header>
+
+        <label for="passwordLength">Length:</label>
+        <input type="text" id="passLength" name="passLength">
+        <br><br>
+
+        <input type="checkbox" id="type1" name="type1">
+        <label for="type1">Include Lowercase Letters (e.g. a, b, c, d)</label>
+        <br><br>
+
+        <input type="checkbox" id="type2" name="type2">
+        <label for="type2">Include Uppercase Letters (e.g. A, B, C, D)</label>
+        <br><br>
+
+        <input type="checkbox" id="type3" name="type3">
+        <label for="type3">Include Numbers (e.g. 0, 1, 2, 3)</label>
+        <br><br>
+
+        <input type="checkbox" id="type4" name="type4">
+        <label for="type4">Include Special Characters (e.g. !, @, #, *)</label>
+        <br><br>
+        
+        <button onclick="main()">Generate</button>
+        <br><br>
+        <br><br>
+
+        <label>New Password:</label>
+        <output id="newPassword"></output>
+        <br><br>
+
+        <button onclick="copyPassword()">Copy</button>
+
+    </body>
+
+</html>
