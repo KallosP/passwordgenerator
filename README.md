@@ -1,1 +1,1 @@
-Quick Linke: https://kallosp.github.io/passwordgenerator/
+Quick Link: https://kallosp.github.io/passwordgenerator/
